@@ -1,10 +1,10 @@
 #PostgreSQL
 library(RPostgreSQL)
 
-conn <- dbConnect(drv = 'PostgreSQL', host='localhost' , user= "postgres", password="101010", dbname="postgres", port=5432)
+conn <- dbConnect(drv = 'PostgreSQL', host='localhost' , user= "postgres", password="*****", dbname="postgres", port=5432)
 
-dbGetQuery(conn, "create schema CT_DB;")
-dbGetQuery(conn, "set search_path = 'ct_db'")
+dbGetQuery(conn, "create schema schema_name;")
+dbGetQuery(conn, "set search_path = '*****'")
 
 #read table
 dbReadTable(conn, "")
