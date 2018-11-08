@@ -1,0 +1,10 @@
+# get the directory of current script
+SCRIPTPATH="$(dirname "$BASH_SOURCE")"
+#echo "$SCRIPTPATH"
+cd "$SCRIPTPATH"
+#now="$(date '+%Y-%m-%d %H:%M')"
+#logname="XX.text"
+#no sleep
+#https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
+#caffeinate -i python -u ./XX.py >> "$logname"
+
